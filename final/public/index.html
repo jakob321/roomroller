@@ -1,0 +1,81 @@
+<!DOCTYPE html> <!-- proper HTML5 doctype -->
+<html lang="en">
+
+<head>
+  	<meta charset="utf-8">
+  	<title>Basic HTML Skeleton</title>
+  	<meta name="author" content="">
+  	<meta name="description" content="">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="blob" id="map">
+            <div style="position:absolute; padding:5px;">Map of environment</div>
+            <div class="map_scaler_btn">
+                <button id="map_scaler" class="btn">Size: 60</button>
+            </div>
+            
+            <canvas id="canvas" width="700" height="700">
+                Your browser does not support the canvas element.
+            </canvas>
+        </div>
+        <div  class="right-side-container">
+            <div class="blob controll-buttons">buttons
+                <div class="button-container">
+                    <div class="center-div">
+                        <div class="buttons">
+                            <button id="1" class="btn">Rotate</button>
+                            <button id="2" class="btn">Forward</button>
+                            <button id="3" class="btn">Rotate</button>
+                            <button id="4" class="btn">Rotate<br>90°</button>
+                            <button id="5" class="btn">Back</button>
+                            <button id="6" class="btn">Rotate<br>90°</button>
+                            <button id="7" class="btn">Ping</button>
+                            <button id="8" class="btn">button</button>
+                            <button id="9" class="btn">Multiplier<br>2x</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blob variables">
+                <div class="variable_containers">
+                    variables
+                    <div class="variable_container">
+                        var 1: <input type="text" id="tb1">
+                    </div>
+                    <div class="variable_container">
+                        var 2: <input type="text" id="tb2">
+                    </div>
+                    <div class="variable_container">
+                        var 3: <input type="text" id="tb3">
+                    </div>
+                    <div class="variable_container">
+                        var 4: <input type="text" id="tb4">
+                    </div>
+                    <div class="variable_container">
+                        var 5: <input type="text" id="tb5">
+                    </div>
+                    <div class="send_variable_container">
+                        <button id="send_variable" class="btn">Send</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="blob">
+                log car
+                <div id="car_log" class="log">
+                </div>
+            </div>
+            <div class="blob">log GUI
+                <div id="server_log" class="log"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="client.js"></script>
+</body>
+  
+</html>

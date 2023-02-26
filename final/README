@@ -1,0 +1,26 @@
+Setup:
+Installing npm
+    curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+    sudo apt install nodejs
+    npm express
+    npm ws
+    sudo apt install build-essential (may not be needed)
+
+installing nvm
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+    nvm install v12.22.9
+    nvm use 12.22.9
+
+Compile node-gyp code:
+    go to folder shmnode
+    node-gyp configure --debug
+    node-gyp build --debug
+
+How to recompile c++ code:
+    g++ -o <new name> <source.cpp> -lpthread  (https://forums.raspberrypi.com/viewtopic.php?t=86425)
+
+set up hotspot on raspberry:
+    follow: https://www.tomshardware.com/how-to/raspberry-pi-access-point
+
+OBS:
+    Make sure the client sets up websocket on the server IP port

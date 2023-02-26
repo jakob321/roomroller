@@ -1,0 +1,33 @@
+Struktur:
+    flera sidor?
+    spara som fil? kan man spara i ram? message?
+
+Steg:
+    hosta en hemsida 
+    bygga enkelt placeholder Struktur 
+    Hur man ska ta emot/skicka information
+        göra en stream?
+
+https://www.youtube.com/watch?v=54cW819DRzs
+https://www.youtube.com/watch?v=LenNpb5zqGE&t=308s better
+https://www.youtube.com/watch?v=RL_E56NPSN0 best
+
+dependencies
+sudo apt install npm nodejs
+npm install ws
+npm install express
+npm install -g node-gyp
+
+som jag inte använder nu:
+npm install nodemon
+
+Vad som ska skickas: https://stackoverflow.com/questions/46012322/read-a-json-file-that-changes-continously
+JSON?
+    map-data
+    logs
+    varibles
+    button clicks
+    
+
+shared mem:
+    https://www.makarenalabs.com/shared-memory-nodejs/

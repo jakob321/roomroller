@@ -1,0 +1,102 @@
+body{
+    background-color:#262626;
+    padding: 5px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 700px auto;
+    grid-template-rows: 700px auto;
+    gap: 10px;
+}
+
+.blob{
+    padding: 5px;
+    border-radius: 10px;
+    background-color:#cccccc;
+    
+}
+
+#map{
+    padding: 0px;
+}
+
+#map_scaler{
+    height: 50px;
+    width: 50px;
+}
+
+.map_scaler_btn{
+    position: absolute;
+    float: right;
+    padding-top: 20px;
+    padding-left: 630px;
+}
+
+.right-side-container{
+    display:grid;
+    gap: 10px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows:345px 345px;
+    /* border:1px solid rgb(51, 255, 0); */
+}
+
+.log{
+    white-space: nowrap;
+    width: 100%;
+    /* border:1px solid rgb(255, 197, 91); */
+    height: 90%;
+    overflow: scroll;
+}
+
+.button-container{
+    width: 100%;
+    height: 90%;
+    /* border:1px solid rgb(255, 197, 91); */
+}
+
+.center-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    display:grid;
+    padding-top: 30px;
+    grid-template-columns: 70px 70px 70px;
+    grid-template-rows: 70px 70px 70px;
+    gap: 10px;
+    /* border:1px solid rgb(255, 197, 91); */
+}
+
+.btn{
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.variable_containers{
+    display:flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+
+.variable_container{
+    padding-top: 10px;
+}
+
+#send_variable{
+    position: relative;
+    bottom: 0px;
+    float: right;
+    float: bottom;
+    height: 50px;
+    width: 50px;
+}
+
+.send_variable_container{
+    float:right;
+    bottom: 0px;
+    height: 100%;
+}
